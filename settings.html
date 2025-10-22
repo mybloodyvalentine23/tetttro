@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="first.css">
+        <title>Tetris Settings</title>
+    </head>
+    <body>
+        <section>
+            <h1>TETRIS SETTINGS</h1>
+            <p class="subtitle">Customize Your Game</p>
+            <div class="tutorial-content">
+                <h2>Game Settings</h2>
+                <p>Adjust the following options to personalize your Tetris experience:</p>
+                <ul>
+                    <li><strong>Sound:</strong> <button class="option-btn" onclick="toggleSound()">On/Off</button></li>
+                    <li><strong>Difficulty:</strong> <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select></li>
+                    <li><strong>Theme:</strong> <button class="option-btn" onclick="changeTheme()">Classic</button></li>
+                </ul>
+                <p>Changes will be saved automatically.</p>
+                <a href="Homepage.html" class="back-btn">Back to Home</a>
+            </div>
+        </section>
+        <script>
+            function toggleSound() {
+                alert('Sound toggle functionality coming soon!');
+            }
+            function changeTheme() {
+                alert('Theme change functionality coming soon!');
+            }
+        </script>
+    </body>
+</html>

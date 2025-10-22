@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../MYOWN"
+		},
+		{
+			"path": "../website/Tetris"
+		},
+		{
+			"path": "trrrrrrrrrrrry"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.cursorSmoothCaretAnimation": "on",
+		"editor.wordWrap": "on",
+		"liveServer.settings.multiRootWorkspaceName": "Tetris (FNAL)"
+	}
+}
